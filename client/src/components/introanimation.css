@@ -1,0 +1,28 @@
+.intro-animation-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-text {
+  font-size: 6rem;
+  display: flex;
+  gap: 0.5rem;
+  transition: opacity 0.8s ease;
+  font-weight: bold;
+}
+
+.intro-text.fade-out {
+  opacity: 0;
+}
+
+.highlight {
+  color: yellow; /* Highlight color for P & B */
+  transition: all 0.5s ease;
+}
